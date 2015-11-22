@@ -1,0 +1,28 @@
+<html>
+<head><title>My First HTML Page</title>
+</head>
+<body bgcolor="navy">
+<h1>Amazing World</h1>
+<h2>Amazing World</h2>
+<h3>Amazing World</h3>
+<h3>Amazing World</h3>
+<h4>Amazing World</h4>
+<h5>Amazing World</h5>
+<h6>Amazing World</h6>
+
+<p>The world is full of all sorts of spices and wonderful nature taj mahal</br></p>
+
+<p><h3>Authored By</h3>
+<h4>Deepak Kumar</h4><br/>
+Thanks for reading
+</p>
+<p align="right">This is right align</p>
+<p align="left">This is left align</p>
+<p align="center">This is centre align</p>
+<p align="center"><b>BOLD Paragraph</b></p>
+<p align="center"><u>Underline Paragraph</u></p>
+<p align="center"><i>Italics paragraph</i></p>
+<p align="center"><em>Emphasize</em>paragraph</p>
+
+</body>
+</html>
