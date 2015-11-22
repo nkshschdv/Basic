@@ -1,0 +1,23 @@
+<html>
+<head><title>pre tag</title>
+</head>
+<body bgcolor="007F64"> <font color="82FFE4">
+
+<h4>Without PRE tag:</h4>
+void main{
+
+int x;
+x=5;
+  }
+
+<h4>With PRE tag:</h4>
+<pre>
+void main{
+
+int x;
+x=5;
+  }
+</pre>
+</font>
+</body>
+</html>
