@@ -1,0 +1,16 @@
+<html>
+<head><title>Extra Spaces using "&nbsp;"</title>
+</head>
+
+<body bgcolor="FF6968"> <font color="7F0100">
+
+<p> Without "& nbsp;" :</p>
+<h1><P>Rattan TATA created worlds most valuable companies.</P></h1>
+
+<p> With "& nbsp;" :</p>
+<h1><P>Rattan &nbsp;&nbsp; TATA &nbsp;&nbsp; created &nbsp;&nbsp; worlds &nbsp;&nbsp; most &nbsp;&nbsp; valuable &nbsp;&nbsp; companies.</P></h1>
+
+
+
+</font></body>
+</html>
