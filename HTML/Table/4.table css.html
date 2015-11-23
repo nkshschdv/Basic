@@ -1,0 +1,85 @@
+<html>
+<head><title>table rowspan</title></head>
+<style>
+img{
+margin:10 500;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t{
+    width: 100%;    
+    background-color: f1f1c1;
+}
+h1{
+  color:C1CC00;
+background-color:7D7F49;
+text-align:center;
+}
+</style>
+
+<body bgcolor="aqua">
+<H1 >Comparison Between Apple and Banana</h2>
+ <img src="https://cloud.githubusercontent.com/assets/15321028/11338927/dfe1abf2-921c-11e5-8217-9f7cf88d2b2d.jpg" alt="Apple Vs Banana" align="middle"> 
+
+	<table border="5" style="width:50%;height:50%" align="Center">
+		<tr>
+		<th colspan="2">Food Serving (gm) </th>
+		<th>Calories(gm)</th>
+		<th>Carbohy.(gm)</th>
+		<th>Fat(gm)</th>
+		<th>Protien(gm)</th>
+		</tr>
+		<tr>
+		<td>Banana</td>
+		<td rowspan="2">100</td>
+		<td>89</td>
+		<td> 22.84</td>
+		<td> 0.33</td>
+		<td>1.09</td>
+		</tr>
+		<tr>
+		<td>Apple</td>
+	
+		<td>52</td>
+		<td> 13.81</td>
+		<td> 0.17</td>
+		<td>0.26</td>
+		</tr>
+		
+	</table>
+<h1> Adding diffrent styling for same table using tag #t</h1>
+	<table id="t" border="1" style="width:50%;height:50%" align="Center">
+		<tr>
+		<th colspan="2">Food Serving (gm) </th>
+		<th>Calories(gm)</th>
+		<th>Carbohy.(gm)</th>
+		<th>Fat(gm)</th>
+		<th>Protien(gm)</th>
+		</tr>
+		<tr>
+		<td>Banana</td>
+		<td rowspan="2">100</td>
+		<td>89</td>
+		<td> 22.84</td>
+		<td> 0.33</td>
+		<td>1.09</td>
+		</tr>
+		<tr>
+		<td>Apple</td>
+	
+		<td>52</td>
+		<td> 13.81</td>
+		<td> 0.17</td>
+		<td>0.26</td>
+		</tr>
+		
+	</table>
+</body>
+</html>
