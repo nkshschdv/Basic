@@ -1,0 +1,140 @@
+<html>
+<head><title>Caption and nth-child() selector</title></head>
+<style>
+img{
+margin:10 500;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t,caption{
+    width: 100%;    
+    background-color: f1f1c1;
+}
+table#t th{
+    background-color: black;
+    color: white;
+}
+
+h1{
+  color:C1CC00;
+background-color:7D7F49;
+text-align:center;
+}
+table#t1 tr:nth-child(even){
+	background-color:red;
+	color:yellow;
+}
+table#t1 tr:nth-child(odd){
+	background-color:9172FF;
+	color:2D00CC;
+}
+table#t1 th{
+    background-color: black;
+    color: white;
+}
+
+
+</style>
+
+<body bgcolor="aqua">
+<H1 >Comparison Between Apple and Banana</h2>
+ <img src="https://cloud.githubusercontent.com/assets/15321028/11338927/dfe1abf2-921c-11e5-8217-9f7cf88d2b2d.jpg" alt="Apple Vs Banana" align="middle"> 
+
+	<table border="5" style="width:50%;height:50%" align="Center">
+		<caption>
+		writting "Comaprison between apple and banana" using caption
+		</caption>
+		<tr>
+		<th colspan="2">Food Serving (gm) </th>
+		<th>Calories(gm)</th>
+		<th>Carbohy.(gm)</th>
+		<th>Fat(gm)</th>
+		<th>Protien(gm)</th>
+		</tr>
+		<tr>
+		<td>Banana</td>
+		<td rowspan="2">100</td>
+		<td>89</td>
+		<td> 22.84</td>
+		<td> 0.33</td>
+		<td>1.09</td>
+		</tr>
+		<tr>
+		<td>Apple</td>
+	
+		<td>52</td>
+		<td> 13.81</td>
+		<td> 0.17</td>
+		<td>0.26</td>
+		</tr>
+		
+	</table>
+<h1> Adding styling for same table using tag #t</h1>
+	<table id="t" border="1" style="width:50%;height:50%" align="Center">
+
+		<tr>
+		<th colspan="2">Food Serving (gm) </th>
+		<th>Calories(gm)</th>
+		<th>Carbohy.(gm)</th>
+		<th>Fat(gm)</th>
+		<th>Protien(gm)</th>
+		</tr>
+		<tr>
+		<td>Banana</td>
+		<td rowspan="2">100</td>
+		<td>89</td>
+		<td> 22.84</td>
+		<td> 0.33</td>
+		<td>1.09</td>
+		</tr>
+		<tr>
+		<td>Apple</td>
+	
+		<td>52</td>
+		<td> 13.81</td>
+		<td> 0.17</td>
+		<td>0.26</td>
+		</tr>
+		
+	</table>
+<br>
+<h1> nth-child(even,odd) selector used on table row</h1>
+<table id="t1" border="5" style="width:50%;height:50%" align="Center">
+		<caption>
+		writting "Comaprison between apple and banana" using caption
+		</caption>
+		<tr>
+		<th colspan="2">Food Serving (gm) </th>
+		<th>Calories(gm)</th>
+		<th>Carbohy.(gm)</th>
+		<th>Fat(gm)</th>
+		<th>Protien(gm)</th>
+		</tr>
+		<tr>
+		<td>Banana</td>
+		<td rowspan="2">100</td>
+		<td>89</td>
+		<td> 22.84</td>
+		<td> 0.33</td>
+		<td>1.09</td>
+		</tr>
+		<tr>
+		<td>Apple</td>
+	
+		<td>52</td>
+		<td> 13.81</td>
+		<td> 0.17</td>
+		<td>0.26</td>
+		</tr>
+		
+	</table>
+
+</body>
+</html>
