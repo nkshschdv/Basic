@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+body{
+ color:C1CC00;
+background-color:7D7F49;
+}
+h1{
+  color:75BDB2;
+background-color:003D34;
+text-align:center;
+}
+
+</style>
+<title>Various form attributes 2</title>
+<body>
+<h1>Form with radio button "without labels" and checked</h1>
+
+<form action=""align="center">
+  
+  <input type="radio" name="sex" id="male" value="male" checked>Male<br>
+
+  <input type="radio" name="sex" id="female" value="female">Female<br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>Form with radio button "with labels"</h1>
+
+<form action="demo_form.asp" align="center">
+  <label for="male1">
+  <input type="radio" name="sex" id="male1" value="male1">Male<br></label>
+  <label for="female1">
+  <input type="radio" name="sex" id="female1" value="female1">Female<br><br></label>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>Form with radio button "with labels" but lables are extended to look diffrent</h1>
+
+<form action="" align="center">
+  <label for="male2">Male</label>
+  <input type="radio" name="sex" id="male2" value="male2"><br>
+  <label for="female2">Female</label>
+  <input type="radio" name="sex" id="female2" value="female2"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
