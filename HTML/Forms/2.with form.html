@@ -1,0 +1,77 @@
+
+<html>
+<head>
+<style>
+body{
+ color:C1CC00;
+background-color:7D7F49;
+}
+h1{
+  color:C1CC00;
+background-color:7D7F49;
+text-align:center;
+}
+input#a
+{
+color:75B3BD;
+background-color:00A2BD;
+}
+input#b
+{ 
+color:white;
+background-color:003D34;
+}
+</style>
+<title>Various form attributes</title>
+<body>
+<form action="2.form2.html">
+  <select name="classmates">
+    <option value="deepak">Deepak</option>
+    <h1> this line is ommitted from page :( </h2>
+    <option value="ankush">Ankush</option>
+    <option value="Sachdeva" selected>SAchdeva</option>
+    <option value="anuj">Anuj</option>
+  </select>
+  <br><br>
+  <input type="submit">
+</form>
+<form action="2.form2.html">
+  <textarea name="message" rows="10" cols="30">
+ Tell something about yourseff !
+  </textarea>
+  <br><br>
+  <input type="submit">
+</form>
+<h1>Showing the messege of Desktop notification enabling by using button</h1>
+<button type="button" onclick="alert('Desktop Notifications enabled')">ONclick Enable Notification!
+</button>
+<h1>Data List is advanced version of "select and option tag" "datalist and option tag" utilises search and type for long lists of options</h1>
+<form action="action_page.php">
+<h3>type country or drop select</h3>
+  <input list="countries" name="countries">
+  <datalist id="countries">
+    <option value="India">
+    <option value="Pakistan">
+    <option value="Bangladesh">
+    <option value="Nepal">
+    <option value="Isreal">
+    <option value="Afganistan">
+  </datalist>
+  <input type="submit">
+</form>
+<br><br><br><br><br><br><br><br><br><br><br>
+<form action="action_page.php" id="form1"
+oninput="x.value=parseInt(a.value)+parseInt(b.value);y.value=parseInt(a.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100
+<br>
+  <output name="y"></output>+
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" ></output>
+  <br><br>
+  <input type="submit">
+</form>
+</body>
+</html>
